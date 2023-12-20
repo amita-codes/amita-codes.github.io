@@ -39,16 +39,8 @@ $(document).ready(function () {
   //  Typing Text Animation  //
 
   var typed = new Typed(".typing", {
-    strings: [
-      "Fullstack Developer",
-      "Software Developer",
-      "Python Developer",
-      "Founder",
-      "Author",
-    ],
+    strings: ["data scientist"],
     typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
   });
 
   var typed = new Typed(".typing-2", {
