@@ -49,7 +49,7 @@ html {
   background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
 }
 
-/*  Simillar  */
+/*  Similar  */
 
 section {
   padding: 100px 0;
@@ -211,15 +211,19 @@ section .title::after {
 
 /*  Home  */
 .home {
-  display: flex;
-  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2F36wCXZs.jpg&f=1&nofb=1&ipt=1620307e0f3013af55d35f0199118f4a2e1d30f24c50f6faed26f1421e6d712c&ipo=images")
-    no-repeat center;
+  height: 100vh;
+  background: url("Pictures/background.jpeg");
+  background-size: cover;
+  position: relative;
+
+  /*display: flex;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2F36wCXZs.jpg&f=1&nofb=1&ipt=1620307e0f3013af55d35f0199118f4a2e1d30f24c50f6faed26f1421e6d712c&ipo=images");
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;*/
 }
 
 .home .max-width {
