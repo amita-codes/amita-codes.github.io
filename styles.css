@@ -216,9 +216,9 @@ section .title::after {
   background-size: cover;
   position: relative;*/
 
-  display: flex;
-  background: url("background.jpg");
   height: 100vh;
+  display: flex;
+  background-image: url("background.jpg");
   color: #fff;
   min-height: 500px;
   background-size: cover;
