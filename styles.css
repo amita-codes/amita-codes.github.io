@@ -217,7 +217,7 @@ section .title::after {
   position: relative;*/
 
   display: flex;
-  background: url("C:/Users/amita/OneDrive/Pictures/background.jpg");
+  background: url("background.jpg");
   height: 100vh;
   color: #fff;
   min-height: 500px;
