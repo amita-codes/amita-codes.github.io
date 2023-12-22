@@ -404,9 +404,16 @@ section .title::after {
   margin: 10px 0 7px 0;
 }
 
+/*  Experience  */
+.experience {
+  background: #c9e4ca;
+  /*background: radial-gradient(#e1efff, white);*/
+}
+
 /*  Skills  */
 .skills {
-  background: radial-gradient(#e1efff, white);
+  background: #87bba2;
+  /*background: radial-gradient(#e1efff, white);*/
 }
 .skills .title::after {
   content: "—What I Know ?—";
