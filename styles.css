@@ -87,7 +87,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Gill Sans", sans-serif;
 }
 
 section .title::before {
@@ -116,7 +116,7 @@ section .title::after {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Gill Sans", sans-serif;
   transition: all 0.3s ease;
 }
 
@@ -139,10 +139,17 @@ section .title::after {
 
 /*  Nav Logo Span Linear-Gradient  */
 .navbar .logo a span {
-  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+
+  /*background: linear-gradient(135deg, #041d3d, #fff, crimson);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;*/
 }
 
 .navbar.sticky .logo a span {
@@ -212,7 +219,7 @@ section .title::after {
 /*  Home  */
 .home {
   height: 100vh;
-  /*display: flex;*/
+  display: flex;
   background-image: url("background.jpg");
   color: #fff;
   min-height: 500px;
