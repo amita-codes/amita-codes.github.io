@@ -122,7 +122,7 @@ section .title::after {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #1e3551;
+  background: #3b6064;
 }
 
 .navbar .max-width {
@@ -137,7 +137,6 @@ section .title::after {
   font-weight: 600;
 }
 
-/*  Nav Logo Span Linear-Gradient  */
 .navbar .logo a span {
   display: block;
   color: #fff;
@@ -220,8 +219,8 @@ section .title::after {
 .home {
   height: 100vh;
   display: flex;
-  background-image: url("background.jpg");
-  color: #fff;
+  /*background-image: url("background.jpg");*/
+  color: #1a776f;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
@@ -406,13 +405,13 @@ section .title::after {
 
 /*  Experience  */
 .experience {
-  background: #c9e4ca;
+  background: #ffffff;
   /*background: radial-gradient(#e1efff, white);*/
 }
 
 /*  Skills  */
 .skills {
-  background: #87bba2;
+  background: #ffffff;
   /*background: radial-gradient(#e1efff, white);*/
 }
 .skills .title::after {
@@ -525,7 +524,7 @@ section .title::after {
 }
 
 .projects .carousel .card {
-  background: #222;
+  background: #ffffff;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
