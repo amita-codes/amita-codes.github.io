@@ -211,19 +211,15 @@ section .title::after {
 
 /*  Home  */
 .home {
-  /*height: 100vh;
-  background: url("C:/Users/amita/OneDrive/Pictures/background.jpg");
-  background-size: cover;
-  position: relative;*/
-
   height: 100vh;
-  display: flex;
+  /*display: flex;*/
   background-image: url("background.jpg");
   color: #fff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+  /*font-family: "Ubuntu", sans-serif;*/
+  font-family: "Gill Sans", sans-serif;
 }
 
 .home .max-width {
