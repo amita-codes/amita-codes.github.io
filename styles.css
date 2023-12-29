@@ -220,7 +220,8 @@ section .title::after {
   height: 100vh;
   display: flex;
   /*background-image: url("background.jpg");*/
-  color: #1a776f;
+  background-color: #1a776f;
+  color: #ffffff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
