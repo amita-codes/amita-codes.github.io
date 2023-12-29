@@ -62,7 +62,7 @@ section {
 }
 
 .about,
-.services,
+.experience,
 .skills,
 .projects,
 .contact,
@@ -70,8 +70,7 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 
-.about .about-content,
-.services .serv-content,
+.experience .experience-content,
 .skills .skills-content,
 .contact .contact-content {
   display: flex;
