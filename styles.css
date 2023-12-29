@@ -346,21 +346,10 @@ section .title::after {
 }
 
 /*  Service  */
-.services,
-.projects {
-  color: #fff;
-  background: #111;
-}
 
 .services .title::before,
 .projects .title::before {
   background: #fff;
-}
-
-.services .title::after,
-.projects .title::after {
-  background: #111;
-  content: "What I Provide ?";
 }
 
 .services .serv-content .card {
@@ -408,6 +397,56 @@ section .title::after {
 .experience {
   background: #ffffff;
   /*background: radial-gradient(#e1efff, white);*/
+}
+
+.experience .title::before {
+  background: #fff;
+}
+
+.experience .title::after {
+  background: #111;
+  content: "What I Provide ?";
+}
+
+.experience .experience-content .card {
+  width: calc(33% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.experience .experience-content .card:hover {
+  background: #1e3551;
+}
+
+.experience .experience-content .card .box {
+  transition: all 0.3s ease;
+}
+
+.experience .experience-content .card:hover .box {
+  transform: scale(1.05);
+}
+
+.experience .experience-content .card i {
+  font-size: 50px;
+  color: #888e8d;
+  background: linear-gradient(135deg, #041d3d, #fff, crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: color 0.3s ease;
+}
+
+.experience .experience-content .card:hover i {
+  color: #fff;
+}
+
+.experience .experience-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
 }
 
 /*  Skills  */
@@ -521,7 +560,7 @@ section .title::after {
 
 /*  Projects  */
 .projects .title::after {
-  content: "What I did ?";
+  content: "What I've Done";
 }
 
 .projects .carousel .card {
@@ -534,7 +573,7 @@ section .title::after {
 }
 
 .projects .carousel .card:hover {
-  background: #1e3551;
+  background: #ffffff;
 }
 
 .projects .carousel .card .box {
