@@ -69,6 +69,108 @@ document.addEventListener(
         },
         retina_detect: !0,
       });
+
+    function createEduDesk() {
+      const eduDeskContainer = document.getElementById("eduDesk");
+
+      function createImageContainer(imageSrc) {
+        const container = document.createElement("div");
+        container.style.margin = "10px";
+        container.style.padding = "10px";
+        container.style.height = "150px";
+        container.style.width = "150px";
+        container.style.borderRadius = "50%";
+        container.style.boxShadow = "0px 10px 5px -5px rgba(0, 0, 0, 0.1)";
+        container.style.display = "flex";
+        container.style.alignItems = "center";
+        container.style.justifyContent = "center";
+
+        const image = document.createElement("img");
+        image.src = imageSrc;
+        image.style.width = "100%";
+        image.style.height = "100%";
+        image.style.borderRadius = "50%";
+
+        container.appendChild(image);
+        return container;
+      }
+
+      // Function to create a text container
+      function createTextContainer(title, subtitle, date, description) {
+        const container = document.createElement("div");
+        container.style.textAlign = "left";
+        container.style.marginLeft = "20px";
+
+        const titleElement = document.createElement("h3");
+        titleElement.textContent = title;
+        titleElement.style.fontSize = "28px";
+        titleElement.style.fontWeight = "bold";
+
+        const subtitleElement = document.createElement("p");
+        subtitleElement.textContent = subtitle;
+        subtitleElement.style.fontSize = "20px";
+        subtitleElement.style.fontWeight = "600";
+
+        const dateElement = document.createElement("p");
+        dateElement.textContent = date;
+        dateElement.style.fontSize = "22px";
+
+        const descriptionElement = document.createElement("p");
+        descriptionElement.textContent = description;
+        descriptionElement.style.fontSize = "22px";
+        descriptionElement.style.color = "grey";
+
+        container.appendChild(titleElement);
+        container.appendChild(subtitleElement);
+        container.appendChild(dateElement);
+        container.appendChild(descriptionElement);
+
+        return container;
+      }
+
+      // Education details
+      const eduDetails = [
+        {
+          imageSrc: "assets/images/gitam.png",
+          title: "GITAM University, Hyderabad",
+          subtitle: "Bachelor's in Computer Science Engineering",
+          date: "2017 - 2021",
+          description:
+            "•  Participated in Rural Development and Social Events as Student Volunteer in NSS for 2 years",
+        },
+        {
+          imageSrc: "assets/images/narayana.png",
+          title: "Narayana Junior College, Hyderabad",
+          subtitle: "Intermediate in MPC stream",
+          date: "2015 - 2017",
+        },
+        {
+          imageSrc: "assets/images/school.png",
+          title: "St. John's High School, Karimnagar",
+          subtitle: "Board of Secondary Education Telangana",
+          date: "2015",
+        },
+      ];
+
+      eduDetails.forEach((edu) => {
+        const eduContainer = document.createElement("div");
+        eduContainer.style.display = "flex";
+        eduContainer.appendChild(createImageContainer(edu.imageSrc));
+        eduContainer.appendChild(
+          createTextContainer(
+            edu.title,
+            edu.subtitle,
+            edu.date,
+            edu.description
+          )
+        );
+
+        eduDeskContainer.appendChild(eduContainer);
+        eduDeskContainer.appendChild(document.createElement("br"));
+      });
+    }
+
+    createEduDesk();
   },
   !1
 );
