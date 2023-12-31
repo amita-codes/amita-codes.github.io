@@ -132,24 +132,12 @@ document.addEventListener(
       // Education details
       const eduDetails = [
         {
-          imageSrc: "assets/images/gitam.png",
-          title: "GITAM University, Hyderabad",
-          subtitle: "Bachelor's in Computer Science Engineering",
-          date: "2017 - 2021",
+          imageSrc: "assets/images/jpg/umich.png",
+          title: "University of Michigan, Ann Arbor",
+          subtitle: "Bachelor's of Science in Data Science",
+          date: "2022 - 2025",
           description:
-            "•  Participated in Rural Development and Social Events as Student Volunteer in NSS for 2 years",
-        },
-        {
-          imageSrc: "assets/images/narayana.png",
-          title: "Narayana Junior College, Hyderabad",
-          subtitle: "Intermediate in MPC stream",
-          date: "2015 - 2017",
-        },
-        {
-          imageSrc: "assets/images/school.png",
-          title: "St. John's High School, Karimnagar",
-          subtitle: "Board of Secondary Education Telangana",
-          date: "2015",
+            "GPA: 3.74/4.0\nRelevant Courses: Elementary Programming Concepts, Programming and Intro Data Structures, Intro to Probability and Statistics, Genetics, Evolution, Discrete Math, Linear Algebra, Intro to Linear Regression",
         },
       ];
 
