@@ -5120,6 +5120,7 @@ a img {
 .edu-details {
   text-align: center;
   margin: 5px auto;
+  border-bottom-color: blue;
 }
 
 #projects {
