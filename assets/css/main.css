@@ -4989,58 +4989,6 @@ a img {
   }
 }
 
-#eduDesk {
-  width: 100%;
-  max-width: 600px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 20px; /* Adjust as needed */
-}
-
-.edu-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px; /* Adjust as needed */
-}
-
-.edu-image {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin-right: 20px; /* Adjust as needed */
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.edu-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.edu-text {
-  flex: 1;
-}
-
-.edu-title {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.edu-subtitle {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.edu-date {
-  font-size: 22px;
-  margin-bottom: 10px; /* Adjust as needed */
-}
-
-.edu-description {
-  font-size: 22px;
-  color: #888; /* Adjust as needed */
-}
-
 .tech {
   margin: 10px;
 }
