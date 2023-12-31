@@ -132,7 +132,7 @@ document.addEventListener(
       // Education details
       const eduDetails = [
         {
-          imageSrc: "assets/images/jpg/umich.png",
+          imageSrc: "assets/img/jpg/umich.png",
           title: "University of Michigan, Ann Arbor",
           subtitle: "Bachelor's of Science in Data Science",
           date: "2022 - 2025",
