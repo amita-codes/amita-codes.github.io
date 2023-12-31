@@ -4991,7 +4991,7 @@ a img {
 
 #eduDesk {
   width: 100%;
-  max-width: 600px; /* Adjust as needed */
+  max-width: 960px; /* Adjust as needed */
   margin: 0 auto;
   padding: 20px; /* Adjust as needed */
 }
@@ -5043,7 +5043,7 @@ a img {
 
 #expDesk {
   width: 100%;
-  max-width: 600px; /* Adjust as needed */
+  max-width: 960px; /* Adjust as needed */
   margin: 0 auto;
   padding: 20px; /* Adjust as needed */
 }
