@@ -4987,23 +4987,38 @@ a img {
   max-width: 960px;
 }
 
-.education .edu-container {
+#education img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edu-item {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-bottom: 20px;
 }
 
-img {
-  max-width: 100%;
+.edu-details {
+  margin-left: 20px;
 }
 
-.education .image {
-  flex-basis: 40%;
+.edu-title {
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.education .text {
-  font-size: 20px;
-  padding-left: 20px;
+.edu-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.edu-date {
+  font-size: 16px;
+}
+
+.edu-description {
+  font-size: 16px;
+  color: #555;
 }
 
 @media only screen and (min-width: 550px) {
