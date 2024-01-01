@@ -4999,8 +4999,8 @@ a img {
 }
 
 .edu-container img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: auto;
 
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -5008,8 +5008,8 @@ a img {
 }
 
 #education img {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: auto;
 
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
