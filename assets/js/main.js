@@ -76,10 +76,10 @@ document.addEventListener(
       // Function to create an image container
       function createImageContainer(imageSrc) {
         const container = document.createElement("div");
-        container.style.margin = "10px";
-        container.style.padding = "10px";
-        container.style.height = "150px";
-        container.style.width = "150px";
+        container.style.margin = "5px";
+        container.style.padding = "5px";
+        container.style.height = "200px";
+        container.style.width = "200px";
         container.style.borderRadius = "50%";
         container.style.boxShadow = "0px 10px 5px -5px rgba(0, 0, 0, 0.1)";
         container.style.display = "flex";
@@ -104,21 +104,21 @@ document.addEventListener(
 
         const titleElement = document.createElement("h3");
         titleElement.textContent = title;
-        titleElement.style.fontSize = "28px";
+        titleElement.style.fontSize = "25px";
         titleElement.style.fontWeight = "bold";
 
         const subtitleElement = document.createElement("p");
         subtitleElement.textContent = subtitle;
-        subtitleElement.style.fontSize = "20px";
+        subtitleElement.style.fontSize = "19px";
         subtitleElement.style.fontWeight = "600";
 
         const dateElement = document.createElement("p");
         dateElement.textContent = date;
-        dateElement.style.fontSize = "22px";
+        dateElement.style.fontSize = "19px";
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = description;
-        descriptionElement.style.fontSize = "22px";
+        descriptionElement.style.fontSize = "19px";
         descriptionElement.style.color = "grey";
 
         container.appendChild(titleElement);
