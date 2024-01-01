@@ -4793,10 +4793,14 @@ h2,
 h3,
 h4,
 strong {
-  margin-top: 1em;
-  padding-top: 1em;
   line-height: 1.25;
   color: #333;
+}
+
+h1 {
+  line-height: 1;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 
 h2 {
