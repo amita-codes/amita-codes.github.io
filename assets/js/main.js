@@ -106,20 +106,24 @@ document.addEventListener(
         titleElement.textContent = title;
         titleElement.style.fontSize = "25px";
         titleElement.style.fontWeight = "bold";
+        titleElement.style.marginBottom = "1px";
 
         const subtitleElement = document.createElement("p");
         subtitleElement.textContent = subtitle;
         subtitleElement.style.fontSize = "19px";
         subtitleElement.style.fontWeight = "600";
+        subtitleElement.style.marginBottom = "1px";
 
         const dateElement = document.createElement("p");
         dateElement.textContent = date;
         dateElement.style.fontSize = "19px";
+        dateElement.style.marginBottom = "1px";
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = description;
         descriptionElement.style.fontSize = "19px";
         descriptionElement.style.color = "grey";
+        descriptionElement.style.marginBottom = "1px";
 
         container.appendChild(titleElement);
         container.appendChild(subtitleElement);
@@ -195,21 +199,21 @@ document.addEventListener(
 
         const titleElement = document.createElement("h3");
         titleElement.textContent = title;
-        titleElement.style.fontSize = "28px";
+        titleElement.style.fontSize = "25px";
         titleElement.style.fontWeight = "bold";
 
         const subtitleElement = document.createElement("p");
         subtitleElement.textContent = subtitle;
-        subtitleElement.style.fontSize = "20px";
+        subtitleElement.style.fontSize = "19px";
         subtitleElement.style.fontWeight = "600";
 
         const dateElement = document.createElement("p");
         dateElement.textContent = date;
-        dateElement.style.fontSize = "22px";
+        dateElement.style.fontSize = "19px";
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = description;
-        descriptionElement.style.fontSize = "22px";
+        descriptionElement.style.fontSize = "19px";
         descriptionElement.style.color = "grey";
 
         container.appendChild(titleElement);
