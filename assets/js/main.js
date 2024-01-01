@@ -132,12 +132,13 @@ document.addEventListener(
       // Education details
       const eduDetails = [
         {
-          imageSrc: "assets/img/jpg/umich.png",
+          imageSrc:
+            "C:/Users/amita/OneDrive/Documents/GitHub/amita-codes.github.io/assets/img/jpg/umich",
           title: "University of Michigan, Ann Arbor",
           subtitle: "Bachelor's of Science in Data Science",
           date: "2022 - 2025",
           description:
-            "GPA: 3.74/4.0\nRelevant Courses: Elementary Programming Concepts, Programming and Intro Data Structures, Intro to Probability and Statistics, Genetics, Evolution, Discrete Math, Linear Algebra, Intro to Linear Regression",
+            "GPA: 3.74/4.0; Relevant Courses: Elementary Programming Concepts, Programming and Intro Data Structures, Intro to Probability and Statistics, Genetics, Evolution, Discrete Math, Linear Algebra, Intro to Linear Regression",
         },
       ];
 

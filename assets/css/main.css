@@ -4978,6 +4978,10 @@ a img {
 }
 
 #education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -5066,6 +5070,24 @@ a img {
 }
 
 .edu-details {
+  text-align: center;
+  margin: 5px auto;
+  border-bottom: 3px blue solid;
+}
+
+.edu-details-1 {
+  text-align: center;
+  margin: 5px auto;
+  border-bottom: 3px blue solid;
+}
+
+.edu-details-2 {
+  text-align: center;
+  margin: 5px auto;
+  border-bottom: 3px blue solid;
+}
+
+.edu-details-3 {
   text-align: center;
   margin: 5px auto;
   border-bottom: 3px blue solid;
