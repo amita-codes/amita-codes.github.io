@@ -223,11 +223,32 @@ document.addEventListener(
       // Experience details
       const expDetails = [
         {
-          imageSrc: "assets/images/jpg/umich.png",
+          imageSrc: "assets/images/jpg/umich",
           title: "Elevance Health",
           subtitle: "Data Engineering Intern",
           date: "June-Aug 2023",
           description: "data eng stuff",
+        },
+        {
+          imageSrc: "assets/images/jpg/umich",
+          title: "Yale University",
+          subtitle: "Data Science Intern",
+          date: "May-Aug 2023",
+          description: "data sci stuff",
+        },
+        {
+          imageSrc: "assets/images/jpg/umich",
+          title: "Michigan EcoData",
+          subtitle: "Back-end Software Development Team",
+          date: "Sep 2022-current",
+          description: "software stuff",
+        },
+        {
+          imageSrc: "assets/images/jpg/umich",
+          title: "Human Genetics Lab",
+          subtitle: "Computational Biology Researh Assistant",
+          date: "Jan-Apr 2023",
+          description: "comp bio stuff",
         },
       ];
 
@@ -244,7 +265,7 @@ document.addEventListener(
           )
         );
 
-        expDeskContainer.appendChild(eduContainer);
+        expDeskContainer.appendChild(expContainer);
         expDeskContainer.appendChild(document.createElement("br"));
       });
     }

@@ -4993,58 +4993,6 @@ a img {
   }
 }
 
-#expDesk {
-  width: 100%;
-  max-width: 960px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 20px; /* Adjust as needed */
-}
-
-.exp-container {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px; /* Adjust as needed */
-}
-
-.exp-image {
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin-right: 10px; /* Adjust as needed */
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.exp-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.exp-text {
-  flex: 1;
-}
-
-.exp-title {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.exp-subtitle {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.exp-date {
-  font-size: 22px;
-  margin-bottom: 10px; /* Adjust as needed */
-}
-
-.exp-description {
-  font-size: 22px;
-  color: #888; /* Adjust as needed */
-}
-
 .tech {
   margin: 10px;
 }
@@ -5070,24 +5018,6 @@ a img {
 }
 
 .edu-details {
-  text-align: center;
-  margin: 5px auto;
-  border-bottom: 3px blue solid;
-}
-
-.edu-details-1 {
-  text-align: center;
-  margin: 5px auto;
-  border-bottom: 3px blue solid;
-}
-
-.edu-details-2 {
-  text-align: center;
-  margin: 5px auto;
-  border-bottom: 3px blue solid;
-}
-
-.edu-details-3 {
   text-align: center;
   margin: 5px auto;
   border-bottom: 3px blue solid;
