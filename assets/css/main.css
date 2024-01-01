@@ -4987,16 +4987,21 @@ a img {
   max-width: 960px;
 }
 
-#education img {
-  border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-right: 20px;
-}
-
 .edu-item {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.edu-container {
+  display: flex;
+  align-items: center;
+}
+
+#education img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
 }
 
 .edu-details {
