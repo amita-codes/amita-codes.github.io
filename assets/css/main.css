@@ -5011,6 +5011,17 @@ a img {
   margin-right: 20px;
 }
 
+.education .skill-header {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #0073ba;
+}
+
+.education .skill-para {
+  font-size: 20px;
+  color: #555;
+}
+
 #education img {
   width: 90px;
   height: auto;
