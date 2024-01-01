@@ -158,7 +158,6 @@ document.addEventListener(
         eduDeskContainer.appendChild(document.createElement("br"));
       });
     }
-
     createEduDesk();
 
     function createExpDesk() {
@@ -248,7 +247,6 @@ document.addEventListener(
         expDeskContainer.appendChild(document.createElement("br"));
       });
     }
-
     createExpDesk();
   },
   !1
