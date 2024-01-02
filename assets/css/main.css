@@ -5027,7 +5027,7 @@ a img {
 .skills .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
 }
