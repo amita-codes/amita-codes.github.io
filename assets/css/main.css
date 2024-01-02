@@ -5015,11 +5015,13 @@ a img {
   font-size: 22px;
   font-weight: bolder;
   color: #0073ba;
+  margin: 20px;
 }
 
 .skill-para {
   font-size: 20px;
   color: #555;
+  margin: 20px;
 }
 
 #education img {
@@ -5087,7 +5089,7 @@ a img {
 .edu-details {
   text-align: center;
   margin: 5px auto;
-  border-bottom: 3px blue solid;
+  border-bottom: 4px #0073ba solid;
 }
 
 #projects {
