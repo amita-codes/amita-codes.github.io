@@ -5024,12 +5024,21 @@ a img {
   margin: 10px;
 }
 
-.skills .icon-box {
+.skills {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .icon-box {
+  display: inline-block;
   align-items: center;
   padding: 10px;
   background: rgba(255, 255, 255, 0.08);
   transition: ease-in-out 0.3s;
+}
+
+.skills .icon-box:last-child {
+  margin-right: 0;
 }
 
 .skills .icon-box i {
