@@ -5142,9 +5142,48 @@ a img {
   }
 }
 
+/* hey*/
+
 .user-projects {
-  margin: 20px auto;
+  margin-bottom: 20px;
 }
+
+/* Style for the container */
+.user-projects .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+/* Style for images within the container */
+.user-projects .container .images {
+  max-width: 45%; /* Adjust max-width as needed */
+}
+
+.user-projects .container .images img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for contents within the container */
+.user-projects .container .contents {
+  max-width: 45%; /* Adjust max-width as needed */
+}
+
+/* Style for icons within the contents */
+.user-projects .container .contents .icons {
+  display: flex;
+  gap: 10px; /* Adjust gap as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.user-projects .container .contents .icons img {
+  width: 32px; /* Adjust icon size as needed */
+  height: 32px; /* Adjust icon size as needed */
+}
+
+/* hey */
 
 .user-projects img {
   max-width: 100%;
