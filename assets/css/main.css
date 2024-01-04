@@ -5198,9 +5198,10 @@ a img {
 
 .proj-icon {
   display: inline-block;
+  margin-right: 10px;
   align-items: center;
   padding: 8px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(122, 122, 122, 0.12);
   transition: ease-in-out 0.3s;
 }
 
@@ -5214,7 +5215,7 @@ a img {
 }
 
 .proj-icon p {
-  font-weight: 300;
+  font-weight: 100;
   margin: 0;
   padding: 0;
   line-height: 1;
