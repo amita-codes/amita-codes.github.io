@@ -4906,6 +4906,17 @@ a img {
   margin: 10px;
 }
 
+.footer-links {
+  margin: 10px;
+}
+
+.footer-links .link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 10px;
+}
+
 @media only screen and (min-width: 550px) {
   .header-links .link {
     font-size: 20px;
