@@ -5054,7 +5054,7 @@ a img {
   padding-left: 0.5rem;
   line-height: 1;
   font-size: 20px;
-  color: #111;
+  color: #555;
 }
 
 .skills .icon-box:hover {
@@ -5143,6 +5143,49 @@ a img {
     width: 80%;
   }
 }
+
+/* yeah */
+
+/* Style for the user-projects container */
+.user-projects {
+  margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+/* Style for the container */
+.user-projects .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Style for images within the container */
+.user-projects .container .images {
+  max-width: 50%; /* Adjust max-width as needed */
+}
+
+.user-projects .container .images img {
+  width: 100%; /* Ensure images fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for contents within the container */
+.user-projects .container .contents {
+  max-width: 50%; /* Adjust max-width as needed */
+}
+
+/* Style for icons within the contents */
+.user-projects .container .contents .icons {
+  display: flex;
+  gap: 10px; /* Adjust gap as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.user-projects .container .contents .icons img {
+  width: 32px; /* Adjust icon size as needed */
+  height: 32px; /* Adjust icon size as needed */
+}
+
+/* yeah */
 
 .user-projects {
   margin: 20px auto;
