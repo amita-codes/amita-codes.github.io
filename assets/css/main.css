@@ -5194,7 +5194,7 @@ a img {
 
 /* Style for images within the container */
 .user-projects .container .images {
-  max-width: 45%; /* Adjust max-width as needed */
+  max-width: 50%; /* Adjust max-width as needed */
 }
 
 .user-projects .container .images img {
@@ -5204,7 +5204,7 @@ a img {
 
 /* Style for contents within the container */
 .user-projects .container .contents {
-  max-width: 45%; /* Adjust max-width as needed */
+  max-width: 50%; /* Adjust max-width as needed */
 }
 
 /* Style for icons within the contents */
@@ -5212,6 +5212,7 @@ a img {
   display: flex;
   gap: 10px; /* Adjust gap as needed */
   margin-bottom: 10px; /* Adjust margin as needed */
+  flex-wrap: wrap;
 }
 
 .user-projects .container .contents .icons img {
@@ -5240,7 +5241,7 @@ a img {
 }
 
 .proj-icon p {
-  font-weight: 100;
+  font-weight: 60;
   margin: 0;
   padding: 0;
   line-height: 1;
