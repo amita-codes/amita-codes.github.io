@@ -4906,6 +4906,31 @@ a img {
   margin: 10px;
 }
 
+.header-link {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  color: #1488cc;
+  background-color: transparent;
+  border: 1px solid #1488cc;
+  border-radius: 10px;
+  text-align: center;
+  outline: 0;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out,
+    border-color 0.3s ease-out;
+}
+
+.header-link:active,
+.header-link:hover {
+  background-color: #5347a8;
+  border-color: #5347a8;
+  color: #fff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in,
+    border-color 0.3s ease-in;
+}
+
 .footer-links {
   margin: 10px;
 }
