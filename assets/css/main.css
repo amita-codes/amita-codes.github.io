@@ -4910,9 +4910,9 @@ a img {
   display: inline-block;
   margin: 10px 0;
   padding: 5px;
-  color: #1488cc;
+  color: #87d3ff;
   background-color: transparent;
-  border: 1px solid #1488cc;
+  border: 1px solid #87d3ff;
   border-radius: 10px;
   text-align: center;
   outline: 0;
@@ -5342,11 +5342,12 @@ a img {
 
 .project-link {
   display: inline-block;
+  font-weight: bolder;
   margin: 10px 0;
   padding: 5px;
-  color: #87d3ff;
+  color: #1488cc;
   background-color: transparent;
-  border: 1px solid #87d3ff;
+  border: 3px solid #1488cc;
   border-radius: 10px;
   text-align: center;
   outline: 0;
